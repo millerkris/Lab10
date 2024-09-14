@@ -1,11 +1,11 @@
 import React from 'react';
+import { Box, Typography } from '@mui/material';
 
 const Home = () => {
     return (
-        <div>
-            <h2>Welcome to Home Page</h2>
-            {/* Content for the home page */}
-        </div>
+        <Box sx={{ mt: 2 }}>
+        <Typography variant="h4">Добро пожаловать на главную страницу</Typography>
+      </Box>
     );
 };
 
